@@ -39,7 +39,7 @@ module.exports = async function excelsior(dolar) {
 				const length = productName.length
 				for(let j = 0; j < length; j++) {
 				products.push(new Product('Excelsior Gama' , productName[j], (prices[j] * dolar).toFixed(2) * 1, prices[j]))
-				console.log(products[products.length - 1])
+				//console.log(products[products.length - 1])
 				}
 			}
 		} catch(err) {}
