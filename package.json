@@ -1,0 +1,18 @@
+{
+  "name": "vzla-supermarkets",
+  "version": "1.0.0",
+  "description": "scraping supermarkets of Venezuelan to use in my supabase database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DGinza",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.22.2",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "got": "^11.8.2",
+    "node-fetch": "^2.6.1"
+  }
+}
