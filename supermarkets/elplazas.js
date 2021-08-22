@@ -49,6 +49,6 @@ module.exports = async function elplazas(dolar) {
 		catch(err) {}
 
 	}
-	console.log(products.length)
-	return products
+	console.log(products)
+	return [...new Set(products)]
 }

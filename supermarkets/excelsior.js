@@ -49,6 +49,5 @@ module.exports = async function excelsior(dolar) {
 
 	}
 	console.log(products.length)
-	console.log('test')
-	return products
+	return [...new Set(products)]
 }
